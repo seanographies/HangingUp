@@ -64,7 +64,7 @@ package
 			caller2 = new Caller2(new Point(Number (mapXML.Player.Caller2.@x), (Number(mapXML.Player.Caller2.@y))));
 		//objects
 			//TODO: parse caller blocks
-			
+				
 			
 			for each (node in mapXML.Objects.sUp) {
 				add(new Spikes(int(node.@x), int(node.@y), "up"));
